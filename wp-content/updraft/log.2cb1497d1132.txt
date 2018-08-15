@@ -1,0 +1,525 @@
+0000.000 (0) Opened log file at time: Sat, 23 Jun 2018 15:17:27 +0000 on https://www.bloomnesia.com
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 5.6.36 (litespeed, Linux sg20.dewaweb.com 3.10.0-714.10.2.lve1.5.12.el7.x86_64 #1 SMP Fri Feb 2 00:27:48 EST 2018 x86_64) MySQL: 5.5.5 WPLANG: id_ID Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 128M (used: 92.9M | 94M) multisite: N openssl: OpenSSL 1.0.2o  27 Mar 2018 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.093 (0) Free space on disk containing Updraft's temporary directory: 279258.7 MB
+0000.098 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.099 (0) Semaphore (fd, wpod_options) being initialised
+0000.102 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.104 (0) Set semaphore last lock (fd) time to 2018-06-23 15:17:28
+0000.105 (0) Semaphore lock (fd) complete
+0000.110 (0) Backup run: resumption=0, nonce=2cb1497d1132, begun at=1529767047 (1s ago), job type=backup
+0000.112 (0) Scheduling a resumption (1) after 300 seconds (1529767348) in case this run gets aborted
+0000.125 (0) Checking if we have a zip executable available
+0000.127 (0) Testing: /usr/bin/zip
+0000.154 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.227 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.229 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.236 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.237 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.252 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.255 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.341 (0) Working binary zip found: /usr/bin/zip
+0000.345 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.347 (0) Creation of backups of directories: beginning
+0000.353 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0003.930 (0) Total entities for the zip file: 1199 directories, 7296 files (0 skipped as non-modified), 102.1 MB
+0003.934 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0004.077 (0) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: size is now: 0.30 MB
+0004.087 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 100 files added (on-disk size: 280.9 KB)
+0004.095 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 200 files added (on-disk size: 280.9 KB)
+0004.102 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 300 files added (on-disk size: 280.9 KB)
+0004.110 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 400 files added (on-disk size: 280.9 KB)
+0004.117 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 500 files added (on-disk size: 280.9 KB)
+0004.119 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17 MB, 7296 files batched, 501 (502) added so far); re-opening (prior size: 280.9 KB)
+0007.317 (0) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: size is now: 5.10 MB
+0007.339 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 600 files added (on-disk size: 5241.2 KB)
+0007.346 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 700 files added (on-disk size: 5241.2 KB)
+0007.353 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 800 files added (on-disk size: 5241.2 KB)
+0007.360 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 900 files added (on-disk size: 5241.2 KB)
+0007.367 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 1000 files added (on-disk size: 5241.2 KB)
+0007.368 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 7296 files batched, 501 (1003) added so far); re-opening (prior size: 5241.2 KB)
+0009.949 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 1100 files added (on-disk size: 6210.4 KB)
+0009.972 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 1200 files added (on-disk size: 6210.4 KB)
+0009.982 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 1300 files added (on-disk size: 6210.4 KB)
+0010.002 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 1400 files added (on-disk size: 6210.4 KB)
+0010.009 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 1500 files added (on-disk size: 6210.4 KB)
+0010.024 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.9 MB, 7296 files batched, 501 (1504) added so far); re-opening (prior size: 6210.4 KB)
+0012.592 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 1600 files added (on-disk size: 7422.6 KB)
+0012.606 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 1700 files added (on-disk size: 7422.6 KB)
+0012.629 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 1800 files added (on-disk size: 7422.6 KB)
+0012.636 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 1900 files added (on-disk size: 7422.6 KB)
+0012.645 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 2000 files added (on-disk size: 7422.6 KB)
+0012.655 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.2 MB, 7296 files batched, 501 (2005) added so far); re-opening (prior size: 7422.6 KB)
+0020.131 (0) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: size is now: 10.30 MB
+0020.142 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 2100 files added (on-disk size: 10577.8 KB)
+0020.156 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 2200 files added (on-disk size: 10577.8 KB)
+0020.172 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 2300 files added (on-disk size: 10577.8 KB)
+0020.209 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 2400 files added (on-disk size: 10577.8 KB)
+0020.216 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 2500 files added (on-disk size: 10577.8 KB)
+0020.220 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.1 MB, 7296 files batched, 501 (2506) added so far); re-opening (prior size: 10577.8 KB)
+0033.103 (0) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: size is now: 12.70 MB
+0033.154 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 2600 files added (on-disk size: 13055 KB)
+0033.194 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 2700 files added (on-disk size: 13055 KB)
+0033.239 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 2800 files added (on-disk size: 13055 KB)
+0033.277 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 2900 files added (on-disk size: 13055 KB)
+0033.285 (0) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 3000 files added (on-disk size: 13055 KB)
+0033.308 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 MB, 7296 files batched, 501 (3007) added so far); re-opening (prior size: 13055 KB)
+0043.422 (0) Binary zip: error (code: 9 - look it up in the Diagnostics section of the zip manual at http://www.info-zip.org/mans/zip.html for interpretation... and also check that your hosting account quota is not full)
+0043.536 (0) The attempt to close the zip file returned an error (). List of files we were trying to add follows (check their permissions).
+0043.573 (0) File: plugins/woocommerce/templates/emails/plain/email-order-details.php (exists: 1, is_readable: 1 size: 1914)
+0043.604 (0) File: plugins/woocommerce/templates/emails/plain/customer-refunded-order.php (exists: 1, is_readable: 1 size: 2052)
+0043.645 (0) File: plugins/woocommerce/templates/emails/plain/email-customer-details.php (exists: 1, is_readable: 1 size: 1021)
+0043.651 (0) File: plugins/woocommerce/templates/emails/plain/email-order-items.php (exists: 1, is_readable: 1 size: 1974)
+0043.651 (0) File: plugins/woocommerce/templates/emails/plain/customer-completed-order.php (exists: 1, is_readable: 1 size: 2062)
+0043.653 (0) File: plugins/woocommerce/templates/emails/plain/customer-new-account.php (exists: 1, is_readable: 1 size: 1542)
+0043.665 (0) File: plugins/woocommerce/templates/emails/email-order-details.php (exists: 1, is_readable: 1 size: 3411)
+0043.666 (0) File: plugins/woocommerce/templates/emails/email-header.php (exists: 1, is_readable: 1 size: 2466)
+0043.666 (0) File: plugins/woocommerce/templates/emails/customer-refunded-order.php (exists: 1, is_readable: 1 size: 2001)
+0043.666 (0) File: plugins/woocommerce/templates/emails/email-customer-details.php (exists: 1, is_readable: 1 size: 1288)
+0043.666 (0) File: plugins/woocommerce/templates/emails/email-footer.php (exists: 1, is_readable: 1 size: 1730)
+0043.666 (0) File: plugins/woocommerce/templates/emails/email-order-items.php (exists: 1, is_readable: 1 size: 3120)
+0043.666 (0) File: plugins/woocommerce/templates/emails/customer-completed-order.php (exists: 1, is_readable: 1 size: 1910)
+0043.666 (0) File: plugins/woocommerce/templates/emails/customer-new-account.php (exists: 1, is_readable: 1 size: 1562)
+0043.666 (0) File: plugins/woocommerce/templates/global/sidebar.php (exists: 1, is_readable: 1 size: 826)
+0043.666 (0) File: plugins/woocommerce/templates/global/form-login.php (exists: 1, is_readable: 1 size: 2579)
+0043.667 (0) File: plugins/woocommerce/templates/global/quantity-input.php (exists: 1, is_readable: 1 size: 1933)
+0043.667 (0) File: plugins/woocommerce/templates/global/wrapper-start.php (exists: 1, is_readable: 1 size: 1860)
+0043.667 (0) File: plugins/woocommerce/templates/global/breadcrumb.php (exists: 1, is_readable: 1 size: 1164)
+0043.667 (0) File: plugins/woocommerce/templates/global/wrapper-end.php (exists: 1, is_readable: 1 size: 1300)
+0043.667 (0) File: plugins/woocommerce/templates/auth/form-grant-access.php (exists: 1, is_readable: 1 size: 1922)
+0043.667 (0) File: plugins/woocommerce/templates/auth/form-login.php (exists: 1, is_readable: 1 size: 2341)
+0043.667 (0) File: plugins/woocommerce/templates/auth/header.php (exists: 1, is_readable: 1 size: 1415)
+0043.667 (0) File: plugins/woocommerce/templates/auth/footer.php (exists: 1, is_readable: 1 size: 711)
+0043.667 (0) File: plugins/woocommerce/templates/single-product.php (exists: 1, is_readable: 1 size: 1665)
+0043.667 (0) File: plugins/woocommerce/templates/myaccount/my-account.php (exists: 1, is_readable: 1 size: 974)
+0043.668 (0) File: plugins/woocommerce/templates/myaccount/downloads.php (exists: 1, is_readable: 1 size: 1616)
+0043.668 (0) File: plugins/woocommerce/templates/myaccount/navigation.php (exists: 1, is_readable: 1 size: 1187)
+0043.668 (0) File: plugins/woocommerce/templates/myaccount/my-downloads.php (exists: 1, is_readable: 1 size: 1994)
+0043.668 (0) File: plugins/woocommerce/templates/myaccount/my-orders.php (exists: 1, is_readable: 1 size: 3363)
+0043.668 (0) File: plugins/woocommerce/templates/myaccount/form-edit-address.php (exists: 1, is_readable: 1 size: 2259)
+0043.668 (0) File: plugins/woocommerce/templates/myaccount/payment-methods.php (exists: 1, is_readable: 1 size: 3735)
+0043.668 (0) File: plugins/woocommerce/templates/myaccount/form-login.php (exists: 1, is_readable: 1 size: 5484)
+0043.668 (0) File: plugins/woocommerce/templates/myaccount/form-lost-password.php (exists: 1, is_readable: 1 size: 1839)
+0043.668 (0) File: plugins/woocommerce/templates/myaccount/form-edit-account.php (exists: 1, is_readable: 1 size: 4544)
+0043.669 (0) File: plugins/woocommerce/templates/myaccount/dashboard.php (exists: 1, is_readable: 1 size: 1985)
+0043.669 (0) File: plugins/woocommerce/templates/myaccount/form-add-payment-method.php (exists: 1, is_readable: 1 size: 2875)
+0043.669 (0) File: plugins/woocommerce/templates/myaccount/lost-password-confirmation.php (exists: 1, is_readable: 1 size: 1128)
+0043.669 (0) File: plugins/woocommerce/templates/myaccount/form-reset-password.php (exists: 1, is_readable: 1 size: 2334)
+0043.669 (0) File: plugins/woocommerce/templates/myaccount/my-address.php (exists: 1, is_readable: 1 size: 2375)
+0043.669 (0) File: plugins/woocommerce/templates/myaccount/orders.php (exists: 1, is_readable: 1 size: 4959)
+0043.669 (0) File: plugins/woocommerce/templates/myaccount/view-order.php (exists: 1, is_readable: 1 size: 2095)
+0043.669 (0) File: plugins/woocommerce/templates/single-product-reviews.php (exists: 1, is_readable: 1 size: 5350)
+0043.669 (0) File: plugins/woocommerce/templates/content-single-product.php (exists: 1, is_readable: 1 size: 2255)
+0043.670 (0) File: plugins/woocommerce/templates/archive-product.php (exists: 1, is_readable: 1 size: 2787)
+0043.670 (0) File: plugins/woocommerce/templates/notices/success.php (exists: 1, is_readable: 1 size: 885)
+0043.670 (0) File: plugins/woocommerce/templates/notices/error.php (exists: 1, is_readable: 1 size: 898)
+0043.670 (0) File: plugins/woocommerce/templates/notices/notice.php (exists: 1, is_readable: 1 size: 897)
+0043.670 (0) File: plugins/woocommerce/templates/content-widget-product.php (exists: 1, is_readable: 1 size: 1254)
+0043.670 (0) File: plugins/woocommerce/templates/loop/loop-end.php (exists: 1, is_readable: 1 size: 698)
+0043.670 (0) File: plugins/woocommerce/templates/loop/pagination.php (exists: 1, is_readable: 1 size: 1542)
+0043.670 (0) File: plugins/woocommerce/templates/loop/add-to-cart.php (exists: 1, is_readable: 1 size: 1181)
+0043.670 (0) File: plugins/woocommerce/templates/loop/orderby.php (exists: 1, is_readable: 1 size: 1177)
+0043.670 (0) File: plugins/woocommerce/templates/loop/sale-flash.php (exists: 1, is_readable: 1 size: 1055)
+0043.671 (0) File: plugins/woocommerce/templates/loop/loop-start.php (exists: 1, is_readable: 1 size: 783)
+0043.671 (0) File: plugins/woocommerce/templates/loop/no-products-found.php (exists: 1, is_readable: 1 size: 891)
+0043.671 (0) File: plugins/woocommerce/templates/loop/rating.php (exists: 1, is_readable: 1 size: 839)
+0043.671 (0) File: plugins/woocommerce/templates/loop/result-count.php (exists: 1, is_readable: 1 size: 1334)
+0043.671 (0) File: plugins/woocommerce/templates/loop/price.php (exists: 1, is_readable: 1 size: 861)
+0043.671 (0) File: plugins/order-delivery-date-for-woocommerce/readme.txt (exists: 1, is_readable: 1 size: 41653)
+0043.671 (0) File: plugins/order-delivery-date-for-woocommerce/languages/messages.pot (exists: 1, is_readable: 1 size: 8711)
+0043.671 (0) File: plugins/order-delivery-date-for-woocommerce/languages/order-delivery-date.po (exists: 1, is_readable: 1 size: 8756)
+0043.671 (0) File: plugins/order-delivery-date-for-woocommerce/languages/order-delivery-date.mo (exists: 1, is_readable: 1 size: 426)
+0043.672 (0) File: plugins/order-delivery-date-for-woocommerce/images/weekday-settings.png (exists: 1, is_readable: 1 size: 62095)
+0043.672 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_hot_sneaks.png (exists: 1, is_readable: 1 size: 2961)
+0043.672 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_ui_light.png (exists: 1, is_readable: 1 size: 5153)
+0043.672 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_black_matte.png (exists: 1, is_readable: 1 size: 3309)
+0043.672 (0) File: plugins/order-delivery-date-for-woocommerce/images/menuhoverbg.png (exists: 1, is_readable: 1 size: 546)
+0043.672 (0) File: plugins/order-delivery-date-for-woocommerce/images/google-calendar-sync.png (exists: 1, is_readable: 1 size: 79098)
+0043.672 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_pepper_grinder.png (exists: 1, is_readable: 1 size: 11553)
+0043.672 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_dark_hive.png (exists: 1, is_readable: 1 size: 10481)
+0043.677 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_mint_choco.png (exists: 1, is_readable: 1 size: 8620)
+0043.685 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_trontastic.png (exists: 1, is_readable: 1 size: 4191)
+0043.693 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_ui_dark.png (exists: 1, is_readable: 1 size: 8760)
+0043.701 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_swanky_purse.png (exists: 1, is_readable: 1 size: 5367)
+0043.704 (0) File: plugins/order-delivery-date-for-woocommerce/images/custom-delivery-settings.png (exists: 1, is_readable: 1 size: 62057)
+0043.831 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_windoze.png (exists: 1, is_readable: 1 size: 3370)
+0043.860 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_excite_bike.png (exists: 1, is_readable: 1 size: 3697)
+0043.860 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_le_frog.png (exists: 1, is_readable: 1 size: 9124)
+0043.860 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_overcast.png (exists: 1, is_readable: 1 size: 7103)
+0043.860 (0) File: plugins/order-delivery-date-for-woocommerce/images/icon-256x256.png (exists: 1, is_readable: 1 size: 43969)
+0043.860 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_start_menu.png (exists: 1, is_readable: 1 size: 3260)
+0043.860 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_dot_luv.png (exists: 1, is_readable: 1 size: 3166)
+0043.860 (0) File: plugins/order-delivery-date-for-woocommerce/images/icon_color_arrow.gif (exists: 1, is_readable: 1 size: 46)
+0043.860 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_south_street.png (exists: 1, is_readable: 1 size: 8417)
+0043.860 (0) File: plugins/order-delivery-date-for-woocommerce/images/time-slots.png (exists: 1, is_readable: 1 size: 66239)
+0043.861 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_humanity.png (exists: 1, is_readable: 1 size: 3259)
+0043.861 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_flick.png (exists: 1, is_readable: 1 size: 6432)
+0043.861 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_smoothness.png (exists: 1, is_readable: 1 size: 3417)
+0043.861 (0) File: plugins/order-delivery-date-for-woocommerce/images/order-delivery-date-lite.png (exists: 1, is_readable: 1 size: 67839)
+0043.861 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_blitzer.png (exists: 1, is_readable: 1 size: 7533)
+0043.861 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_cupertino.png (exists: 1, is_readable: 1 size: 8530)
+0043.861 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_sunny.png (exists: 1, is_readable: 1 size: 8581)
+0043.861 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_eggplant.png (exists: 1, is_readable: 1 size: 9041)
+0043.861 (0) File: plugins/order-delivery-date-for-woocommerce/images/buttonbg.png (exists: 1, is_readable: 1 size: 4176)
+0043.862 (0) File: plugins/order-delivery-date-for-woocommerce/images/theme_90_black_tie.png (exists: 1, is_readable: 1 size: 3623)
+0043.862 (0) File: plugins/order-delivery-date-for-woocommerce/class-view-holidays.php (exists: 1, is_readable: 1 size: 4278)
+0043.862 (0) File: plugins/order-delivery-date-for-woocommerce/includes/orddd-lite-component.php (exists: 1, is_readable: 1 size: 17391)
+0043.862 (0) File: plugins/order-delivery-date-for-woocommerce/includes/component/WooCommerce-Check/ts-woo-active.php (exists: 1, is_readable: 1 size: 1942)
+0043.862 (0) File: plugins/order-delivery-date-for-woocommerce/includes/component/WooCommerce-Check/Instructions (exists: 1, is_readable: 1 size: 532)
+0043.862 (0) File: plugins/order-delivery-date-for-woocommerce/includes/component/README.md (exists: 1, is_readable: 1 size: 33)
+0043.862 (0) File: plugins/order-delivery-date-for-woocommerce/includes/component/pro-notices-in-lite/Instructions (exists: 1, is_readable: 1 size: 1481)
+0043.862 (0) File: plugins/order-delivery-date-for-woocommerce/includes/component/pro-notices-in-lite/ts-pro-notices.php (exists: 1, is_readable: 1 size: 18374)
+0043.862 (0) File: plugins/order-delivery-date-for-woocommerce/includes/component/welcome-page/ts-welcome.php (exists: 1, is_readable: 1 size: 7204)
+0043.863 (0) File: plugins/order-delivery-date-for-woocommerce/includes/component/welcome-page/Instructions (exists: 1, is_readable: 1 size: 1902)
+0043.863 (0) File: plugins/order-delivery-date-for-woocommerce/includes/component/welcome-page/assets/images/weekday-settings.png (exists: 1, is_readable: 1 size: 62095)
+0043.863 (0) File: plugins/order-delivery-date-for-woocommerce/includes/component/welcome-page/assets/images/google-calendar-sync.png (exists: 1, is_readable: 1 size: 79098)
+0043.863 (0) File: plugins/order-delivery-date-for-woocommerce/includes/component/welcome-page/assets/images/Enable_Delivery_Date.gif (exists: 1, is_readable: 1 size: 20866)
+0043.863 (0) File: plugins/order-delivery-date-for-woocommerce/includes/component/welcome-page/assets/images/custom-delivery-settings.png (exists: 1, is_readable: 1 size: 62057)
+0043.863 (0) File: plugins/order-delivery-date-for-woocommerce/includes/component/welcome-page/assets/images/icon-256x256.png (exists: 1, is_readable: 1 size: 43969)
+0043.863 (0) File: plugins/order-delivery-date-for-woocommerce/includes/component/welcome-page/assets/images/abandon-cart-cut-off-time.png (exists: 1, is_readable: 1 size: 15239)
+0043.866 (0) File: plugins/order-delivery-date-for-woocommerce/includes/component/welcome-page/assets/images/Field_on_Cart_page.gif (exists: 1, is_readable: 1 size: 72456)
+0043.890 (0) File: plugins/order-delivery-date-for-woocommerce/includes/component/welcome-page/assets/images/Google_Calendar_Sync.png (exists: 1, is_readable: 1 size: 84731)
+0043.893 (0) File: plugins/order-delivery-date-for-woocommerce/includes/component/welcome-page/assets/images/abandoned-cart-lite-email-templates.png (exists: 1, is_readable: 1 size: 62523)
+0043.895 (0) File: plugins/order-delivery-date-for-woocommerce/includes/component/welcome-page/assets/images/time-slots.png (exists: 1, is_readable: 1 size: 66239)
+3166.314 (1) Opened log file at time: Sat, 23 Jun 2018 16:10:14 +0000 on https://www.bloomnesia.com
+3166.317 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 5.6.36 (litespeed, Linux sg20.dewaweb.com 3.10.0-714.10.2.lve1.5.12.el7.x86_64 #1 SMP Fri Feb 2 00:27:48 EST 2018 x86_64) MySQL: 5.5.5 WPLANG: id_ID Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 128M (used: 74.7M | 76.8M) multisite: N openssl: OpenSSL 1.0.2o  27 Mar 2018 mcrypt: Y LANG:  ZipArchive::addFile: Y
+3166.525 (1) Free space on disk containing Updraft's temporary directory: 279051.4 MB
+3166.535 (1) Backup run: resumption=1, nonce=2cb1497d1132, begun at=1529767047 (3167s ago), job type=backup, previous check-in=43.4s
+3166.559 (1) Long time past since expected resumption time: approx expected=1529767391.5, now=1529770214.3, diff=2822.8
+3166.562 (1) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+3166.565 (1) Scheduling a resumption (2) after 300 seconds (1529770514) in case this run gets aborted
+3166.645 (1) Checking if we have a zip executable available
+3166.653 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+3166.656 (1) Creation of backups of directories: had begun; will resume
+3166.725 (1) Beginning creation of dump of plugins (split every: 400 MB)
+3166.730 (1) Deleting old temporary file: ziUgHr9z
+3166.792 (1) File exists (/home/bloomnes/public_html/wp-content/updraft/backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1529767081, time_now=1529770214, diff=3133)
+3167.684 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: Zip file already exists, with 2506 files
+3171.513 (1) Total entities for the zip file: 1199 directories, 7296 files (0 skipped as non-modified), 102.1 MB
+3171.521 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 100 files added (on-disk size: 13055 KB)
+3171.523 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 200 files added (on-disk size: 13055 KB)
+3171.526 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 300 files added (on-disk size: 13055 KB)
+3171.529 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 400 files added (on-disk size: 13055 KB)
+3171.532 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 500 files added (on-disk size: 13055 KB)
+3171.536 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 600 files added (on-disk size: 13055 KB)
+3171.539 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 700 files added (on-disk size: 13055 KB)
+3171.542 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 800 files added (on-disk size: 13055 KB)
+3171.545 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 900 files added (on-disk size: 13055 KB)
+3171.547 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 1000 files added (on-disk size: 13055 KB)
+3171.552 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 1100 files added (on-disk size: 13055 KB)
+3171.555 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 1200 files added (on-disk size: 13055 KB)
+3171.558 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 1300 files added (on-disk size: 13055 KB)
+3171.561 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 1400 files added (on-disk size: 13055 KB)
+3171.564 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 1500 files added (on-disk size: 13055 KB)
+3171.567 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 1600 files added (on-disk size: 13055 KB)
+3171.570 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 1700 files added (on-disk size: 13055 KB)
+3171.573 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 1800 files added (on-disk size: 13055 KB)
+3171.576 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 1900 files added (on-disk size: 13055 KB)
+3171.579 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 2000 files added (on-disk size: 13055 KB)
+3171.584 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 2100 files added (on-disk size: 13055 KB)
+3171.587 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 2200 files added (on-disk size: 13055 KB)
+3171.590 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 2300 files added (on-disk size: 13055 KB)
+3171.593 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 2400 files added (on-disk size: 13055 KB)
+3171.596 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 2500 files added (on-disk size: 13055 KB)
+3171.602 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 2600 files added (on-disk size: 13055 KB)
+3171.611 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 2700 files added (on-disk size: 13055 KB)
+3171.619 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 2800 files added (on-disk size: 13055 KB)
+3171.627 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 2900 files added (on-disk size: 13055 KB)
+3171.634 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 3000 files added (on-disk size: 13055 KB)
+3171.636 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 MB, 7296 files batched, 501 (501) added so far); re-opening (prior size: 13055 KB)
+3188.512 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: size is now: 15.30 MB
+3188.536 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 3100 files added (on-disk size: 15700.6 KB)
+3188.543 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 3200 files added (on-disk size: 15700.6 KB)
+3188.550 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 3300 files added (on-disk size: 15700.6 KB)
+3188.557 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 3400 files added (on-disk size: 15700.6 KB)
+3188.564 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 3500 files added (on-disk size: 15700.6 KB)
+3188.566 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.3 MB, 7296 files batched, 501 (1002) added so far); re-opening (prior size: 15700.6 KB)
+3200.407 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 3600 files added (on-disk size: 17284.8 KB)
+3200.414 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 3700 files added (on-disk size: 17284.8 KB)
+3200.421 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 3800 files added (on-disk size: 17284.8 KB)
+3200.428 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 3900 files added (on-disk size: 17284.8 KB)
+3200.434 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 4000 files added (on-disk size: 17284.8 KB)
+3200.436 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.4 MB, 7296 files batched, 501 (1503) added so far); re-opening (prior size: 17284.8 KB)
+3213.174 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 4100 files added (on-disk size: 18963.5 KB)
+3213.182 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 4200 files added (on-disk size: 18963.5 KB)
+3213.191 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 4300 files added (on-disk size: 18963.5 KB)
+3213.199 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 4400 files added (on-disk size: 18963.5 KB)
+3213.206 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 4500 files added (on-disk size: 18963.5 KB)
+3213.208 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.6 MB, 7296 files batched, 501 (2004) added so far); re-opening (prior size: 18963.5 KB)
+3223.755 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: size is now: 23.90 MB
+3223.788 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 4600 files added (on-disk size: 24474.2 KB)
+3223.798 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 4700 files added (on-disk size: 24474.2 KB)
+3223.806 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 4800 files added (on-disk size: 24474.2 KB)
+3223.816 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 4900 files added (on-disk size: 24474.2 KB)
+3223.825 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 5000 files added (on-disk size: 24474.2 KB)
+3223.827 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8 MB, 7296 files batched, 501 (2505) added so far); re-opening (prior size: 24474.2 KB)
+3243.610 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 5100 files added (on-disk size: 27203.1 KB)
+3243.618 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 5200 files added (on-disk size: 27203.1 KB)
+3243.625 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 5300 files added (on-disk size: 27203.1 KB)
+3243.632 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 5400 files added (on-disk size: 27203.1 KB)
+3243.640 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 5500 files added (on-disk size: 27203.1 KB)
+3243.641 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.9 MB, 7296 files batched, 501 (3006) added so far); re-opening (prior size: 27203.1 KB)
+3262.274 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 5600 files added (on-disk size: 29988.1 KB)
+3262.282 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 5700 files added (on-disk size: 29988.1 KB)
+3262.290 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 5800 files added (on-disk size: 29988.1 KB)
+3262.297 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 5900 files added (on-disk size: 29988.1 KB)
+3262.305 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 6000 files added (on-disk size: 29988.1 KB)
+3262.307 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.7 MB, 7296 files batched, 501 (3507) added so far); re-opening (prior size: 29988.1 KB)
+3285.854 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 6100 files added (on-disk size: 34689.3 KB)
+3285.862 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 6200 files added (on-disk size: 34689.3 KB)
+3285.869 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 6300 files added (on-disk size: 34689.3 KB)
+3285.877 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 6400 files added (on-disk size: 34689.3 KB)
+3285.884 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 6500 files added (on-disk size: 34689.3 KB)
+3285.886 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.4 MB, 7296 files batched, 501 (4008) added so far); re-opening (prior size: 34689.3 KB)
+3306.902 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 6600 files added (on-disk size: 36509.3 KB)
+3306.910 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 6700 files added (on-disk size: 36509.3 KB)
+3306.917 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 6800 files added (on-disk size: 36509.3 KB)
+3306.924 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 6900 files added (on-disk size: 36509.3 KB)
+3306.931 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 7000 files added (on-disk size: 36509.3 KB)
+3306.933 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.3 MB, 7296 files batched, 501 (4509) added so far); re-opening (prior size: 36509.3 KB)
+3328.085 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 7100 files added (on-disk size: 37702.4 KB)
+3328.097 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip.tmp: 7200 files added (on-disk size: 37702.4 KB)
+3347.708 (1) Created plugins zip (0) - 38315.5 KB in 180.8 s (212 KB/s) (sha1: 693d19d03a710dda3519e1a41eb6c0a46f1f721c, sha256: 64860b0c74ec502624f599403c919c536c0b44aca48cfc4d9842996128c42d01)
+3347.712 (1) Beginning creation of dump of themes (split every: 400 MB)
+3348.029 (1) Total entities for the zip file: 212 directories, 1777 files (0 skipped as non-modified), 15.5 MB
+3348.040 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+3348.049 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+3348.057 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+3348.065 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+3348.073 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+3348.075 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.6 MB, 1777 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+3352.194 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip.tmp: size is now: 3.20 MB
+3352.217 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip.tmp: 600 files added (on-disk size: 3316.3 KB)
+3352.224 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip.tmp: 700 files added (on-disk size: 3316.3 KB)
+3352.232 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip.tmp: 800 files added (on-disk size: 3316.3 KB)
+3352.239 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip.tmp: 900 files added (on-disk size: 3316.3 KB)
+3352.246 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip.tmp: 1000 files added (on-disk size: 3316.3 KB)
+3352.247 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.4 MB, 1777 files batched, 501 (1002) added so far); re-opening (prior size: 3316.3 KB)
+3359.642 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip.tmp: size is now: 4.40 MB
+3359.669 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip.tmp: 1100 files added (on-disk size: 4546.3 KB)
+3359.678 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip.tmp: 1200 files added (on-disk size: 4546.3 KB)
+3359.689 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip.tmp: 1300 files added (on-disk size: 4546.3 KB)
+3359.697 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip.tmp: 1400 files added (on-disk size: 4546.3 KB)
+3359.705 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip.tmp: 1500 files added (on-disk size: 4546.3 KB)
+3359.707 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 1777 files batched, 501 (1503) added so far); re-opening (prior size: 4546.3 KB)
+3363.205 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip.tmp: size is now: 6.60 MB
+3363.217 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip.tmp: 1600 files added (on-disk size: 6792.6 KB)
+3363.225 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip.tmp: 1700 files added (on-disk size: 6792.6 KB)
+3367.122 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip.tmp: size is now: 8.00 MB
+3367.259 (1) Created themes zip (0) - 8188.1 KB in 19.5 s (420.8 KB/s) (sha1: 4956a9050eff1c9a922db33219e48015acfd6856, sha256: e3f28de9d4656bc6ea2cf6ee402b6bc0d92db2fa788f2b14bd1b0ee752e00335)
+3367.263 (1) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+3367.264 (1) Looking for candidates to back up in: /home/bloomnes/public_html/wp-content/uploads
+3367.266 (1) finding files: GeoIPv6.dat: adding to list (1)
+3367.267 (1) finding files: wc-logs: adding to list (2)
+3367.268 (1) finding files: 2016: adding to list (3)
+3367.269 (1) finding files: 2018: adding to list (4)
+3367.270 (1) finding files: woocommerce_uploads: adding to list (5)
+3367.271 (1) finding files: GeoLite2-Country.mmdb: adding to list (6)
+3367.272 (1) finding files: GeoIP.dat: adding to list (7)
+3367.273 (1) Beginning creation of dump of uploads (split every: 400 MB)
+3367.389 (1) Total entities for the zip file: 7 directories, 461 files (0 skipped as non-modified), 44 MB
+3367.397 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+3367.405 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+3367.408 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 461 files batched, 228 (228) added so far); re-opening (prior size: 0 KB)
+3393.391 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-uploads.zip.tmp: size is now: 23.90 MB
+3393.397 (1) A useful amount of data was added after this amount of zip processing: 26.4 s (normalised: 26.2 s, rate: 977.8 KB/s)
+3393.408 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-uploads.zip.tmp: 300 files added (on-disk size: 24516.3 KB)
+3393.420 (1) Zip: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-uploads.zip.tmp: 400 files added (on-disk size: 24516.3 KB)
+3426.844 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-uploads.zip.tmp: size is now: 40.70 MB
+3426.850 (1) The scheduled resumption is within 45 seconds - will reschedule
+3426.855 (1) Rescheduling resumption 2: moving to 345 seconds from now (1529770819)
+3426.861 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+3428.951 (1) Created uploads zip (0) - 41711.7 KB in 61.6 s (677.2 KB/s) (sha1: 46b7cb7f07ec3f8cae820322df7885b06129de87, sha256: 635a1a44f8e7c281b050a189d85a57f440a909fc06f18ddd3e1fe87c8fda9b99)
+3428.954 (1) Beginning backup of other directories found in the content directory (index: 0)
+3428.956 (1) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+3428.957 (1) Looking for candidates to back up in: /home/bloomnes/public_html/wp-content
+3428.959 (1) finding files: plugins: skipping: this is the plugins directory
+3428.960 (1) finding files: languages: adding to list (1)
+3428.961 (1) finding files: updraft: skipping: this is the updraft directory
+3428.963 (1) finding files: index.php: adding to list (2)
+3428.964 (1) finding files: uploads: skipping: this is the uploads directory
+3428.966 (1) finding files: upgrade: skipping: excluded by options
+3428.967 (1) finding files: themes: skipping: this is the themes directory
+3428.969 (1) finding files: cache: skipping: excluded by options
+3429.065 (1) Total entities for the zip file: 3 directories, 19 files (0 skipped as non-modified), 2.5 MB
+3429.944 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-others.zip.tmp: size is now: 0.70 MB
+3429.976 (1) Created others zip (0) - 739.8 KB in 0.9 s (806.3 KB/s) (sha1: 4151a62f3c47f049a4d7bbefaa5f8081a07c2e8a, sha256: ea3953e47a4c2eb5f8a34c1047802aa50b964f663342b72861337845fc062538)
+3429.982 (1) Saving backup status to database (elements: 8)
+3429.986 (1) Resuming creation of database dump (WordPress DB)
+3429.989 (1) Testing: /usr/bin/mysqldump
+3430.202 (1) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wpod_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1206 bytes total)
+3430.211 (1) Binary mysqldump: error (code: 5)
+3430.212 (1) Testing: /bin/mysqldump
+3430.236 (1) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wpod_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1206 bytes total)
+3430.244 (1) Binary mysqldump: error (code: 5)
+3430.262 (1) Table wpod_options: Total expected rows (approximate): 660
+3430.653 (1) Table wpod_options: Total rows added: 656 in 0.39 seconds
+3430.655 (1) Table wpod_options: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_options.table.gz - 127.2 KB)
+3430.659 (1) Table wpod_users: Total expected rows (approximate): 1
+3430.662 (1) Table wpod_users: Total rows added: 1 in 0.00 seconds
+3430.664 (1) Table wpod_users: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_users.table.gz - 0.5 KB)
+3430.668 (1) Table wpod_usermeta: Total expected rows (approximate): 64
+3430.672 (1) Table wpod_usermeta: Total rows added: 64 in 0.00 seconds
+3430.674 (1) Table wpod_usermeta: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_usermeta.table.gz - 4 KB)
+3430.679 (1) Table wpod_commentmeta: Total expected rows (approximate): 0
+3430.682 (1) Table wpod_commentmeta: Total rows added: 0 in 0.00 seconds
+3430.683 (1) Table wpod_commentmeta: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_commentmeta.table.gz - 0.4 KB)
+3430.688 (1) Table wpod_comments: Total expected rows (approximate): 4
+3430.694 (1) Table wpod_comments: Total rows added: 4 in 0.00 seconds
+3430.695 (1) Table wpod_comments: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_comments.table.gz - 0.9 KB)
+3430.701 (1) Table wpod_links: Total expected rows (approximate): 0
+3430.704 (1) Table wpod_links: Total rows added: 0 in 0.00 seconds
+3430.705 (1) Table wpod_links: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_links.table.gz - 0.4 KB)
+3430.709 (1) Table wpod_postmeta: Total expected rows (approximate): 4621
+3430.816 (1) Table wpod_postmeta: Total rows added: 4621 in 0.11 seconds
+3430.817 (1) Table wpod_postmeta: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_postmeta.table.gz - 60.9 KB)
+3430.822 (1) Table wpod_posts: Total expected rows (approximate): 444
+3430.915 (1) Table wpod_posts: Total rows added: 444 in 0.09 seconds
+3430.918 (1) Table wpod_posts: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_posts.table.gz - 94.7 KB)
+3430.922 (1) Table wpod_term_relationships: Total expected rows (approximate): 727
+3430.933 (1) Table wpod_term_relationships: Total rows added: 727 in 0.01 seconds
+3430.935 (1) Table wpod_term_relationships: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_term_relationships.table.gz - 2.3 KB)
+3430.940 (1) Table wpod_term_taxonomy: Total expected rows (approximate): 213
+3430.948 (1) Table wpod_term_taxonomy: Total rows added: 213 in 0.01 seconds
+3430.949 (1) Table wpod_term_taxonomy: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_term_taxonomy.table.gz - 1.9 KB)
+3430.954 (1) Table wpod_termmeta: Total expected rows (approximate): 139
+3430.959 (1) Table wpod_termmeta: Total rows added: 139 in 0.00 seconds
+3430.961 (1) Table wpod_termmeta: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_termmeta.table.gz - 1.3 KB)
+3430.965 (1) Table wpod_terms: Total expected rows (approximate): 213
+3430.972 (1) Table wpod_terms: Total rows added: 213 in 0.01 seconds
+3430.974 (1) Table wpod_terms: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_terms.table.gz - 2.7 KB)
+3430.979 (1) Table wpod_woocommerce_order_itemmeta: Total expected rows (approximate): 60
+3430.984 (1) Table wpod_woocommerce_order_itemmeta: Total rows added: 60 in 0.00 seconds
+3430.986 (1) Table wpod_woocommerce_order_itemmeta: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_order_itemmeta.table.gz - 1.1 KB)
+3430.993 (1) Table wpod_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+3430.997 (1) Table wpod_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+3430.999 (1) Table wpod_woocommerce_payment_tokenmeta: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+3431.006 (1) Table wpod_yoast_seo_links: Total expected rows (approximate): 38
+3431.011 (1) Table wpod_yoast_seo_links: Total rows added: 38 in 0.00 seconds
+3431.012 (1) Table wpod_yoast_seo_links: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_yoast_seo_links.table.gz - 0.7 KB)
+3431.018 (1) Table wpod_yoast_seo_meta: Total expected rows (approximate): 8
+3431.022 (1) Table wpod_yoast_seo_meta: Total rows added: 8 in 0.00 seconds
+3431.023 (1) Table wpod_yoast_seo_meta: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_yoast_seo_meta.table.gz - 0.4 KB)
+3431.028 (1) Table wpod_smush_dir_images: Total expected rows (approximate): 0
+3431.030 (1) Table wpod_smush_dir_images: Total rows added: 0 in 0.00 seconds
+3431.032 (1) Table wpod_smush_dir_images: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_smush_dir_images.table.gz - 0.4 KB)
+3431.040 (1) Table wpod_social_users: Total expected rows (approximate): 0
+3431.043 (1) Table wpod_social_users: Total rows added: 0 in 0.00 seconds
+3431.044 (1) Table wpod_social_users: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_social_users.table.gz - 0.3 KB)
+3431.050 (1) Table wpod_wc_download_log: Total expected rows (approximate): 0
+3431.053 (1) Table wpod_wc_download_log: Total rows added: 0 in 0.00 seconds
+3431.055 (1) Table wpod_wc_download_log: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_wc_download_log.table.gz - 0.4 KB)
+3431.062 (1) Table wpod_wc_webhooks: Total expected rows (approximate): 0
+3431.065 (1) Table wpod_wc_webhooks: Total rows added: 0 in 0.00 seconds
+3431.066 (1) Table wpod_wc_webhooks: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_wc_webhooks.table.gz - 0.5 KB)
+3431.072 (1) Table wpod_woocommerce_api_keys: Total expected rows (approximate): 0
+3431.075 (1) Table wpod_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+3431.076 (1) Table wpod_woocommerce_api_keys: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_api_keys.table.gz - 0.4 KB)
+3431.082 (1) Table wpod_woocommerce_attribute_taxonomies: Total expected rows (approximate): 2
+3431.085 (1) Table wpod_woocommerce_attribute_taxonomies: Total rows added: 2 in 0.00 seconds
+3431.087 (1) Table wpod_woocommerce_attribute_taxonomies: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+3431.092 (1) Table wpod_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+3431.095 (1) Table wpod_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+3431.096 (1) Table wpod_woocommerce_downloadable_product_permissions: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+3431.102 (1) Table wpod_woocommerce_log: Total expected rows (approximate): 0
+3431.104 (1) Table wpod_woocommerce_log: Total rows added: 0 in 0.00 seconds
+3431.105 (1) Table wpod_woocommerce_log: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_log.table.gz - 0.4 KB)
+3431.111 (1) Table wpod_woocommerce_order_items: Total expected rows (approximate): 7
+3431.115 (1) Table wpod_woocommerce_order_items: Total rows added: 7 in 0.00 seconds
+3431.116 (1) Table wpod_woocommerce_order_items: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_order_items.table.gz - 0.5 KB)
+3431.126 (1) Table wpod_woocommerce_payment_tokens: Total expected rows (approximate): 0
+3431.129 (1) Table wpod_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+3431.131 (1) Table wpod_woocommerce_payment_tokens: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_payment_tokens.table.gz - 0.4 KB)
+3431.136 (1) Table wpod_woocommerce_sessions: Total expected rows (approximate): 5
+3431.141 (1) Table wpod_woocommerce_sessions: Total rows added: 5 in 0.00 seconds
+3431.142 (1) Table wpod_woocommerce_sessions: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_sessions.table.gz - 1.9 KB)
+3431.150 (1) Table wpod_woocommerce_shipping_zone_locations: Total expected rows (approximate): 1
+3431.156 (1) Table wpod_woocommerce_shipping_zone_locations: Total rows added: 1 in 0.00 seconds
+3431.159 (1) Table wpod_woocommerce_shipping_zone_locations: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+3431.168 (1) Table wpod_woocommerce_shipping_zone_methods: Total expected rows (approximate): 1
+3431.173 (1) Table wpod_woocommerce_shipping_zone_methods: Total rows added: 1 in 0.00 seconds
+3431.174 (1) Table wpod_woocommerce_shipping_zone_methods: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+3431.182 (1) Table wpod_woocommerce_shipping_zones: Total expected rows (approximate): 1
+3431.185 (1) Table wpod_woocommerce_shipping_zones: Total rows added: 1 in 0.00 seconds
+3431.187 (1) Table wpod_woocommerce_shipping_zones: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_shipping_zones.table.gz - 0.4 KB)
+3431.194 (1) Table wpod_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+3431.198 (1) Table wpod_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+3431.199 (1) Table wpod_woocommerce_tax_rate_locations: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+3431.206 (1) Table wpod_woocommerce_tax_rates: Total expected rows (approximate): 0
+3431.209 (1) Table wpod_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+3431.211 (1) Table wpod_woocommerce_tax_rates: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_tax_rates.table.gz - 0.4 KB)
+3431.218 (1) Table wpod_woof_query_cache: Total expected rows (approximate): 0
+3431.220 (1) Table wpod_woof_query_cache: Total rows added: 0 in 0.00 seconds
+3431.222 (1) Table wpod_woof_query_cache: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woof_query_cache.table.gz - 0.3 KB)
+3431.228 (1) Table wpod_yith_wcwl: Total expected rows (approximate): 0
+3431.232 (1) Table wpod_yith_wcwl: Total rows added: 0 in 0.00 seconds
+3431.233 (1) Table wpod_yith_wcwl: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_yith_wcwl.table.gz - 0.3 KB)
+3431.240 (1) Table wpod_yith_wcwl_lists: Total expected rows (approximate): 1
+3431.244 (1) Table wpod_yith_wcwl_lists: Total rows added: 1 in 0.00 seconds
+3431.245 (1) Table wpod_yith_wcwl_lists: finishing file (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_yith_wcwl_lists.table.gz - 0.5 KB)
+3431.250 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_options.table.gz (1/35): adding to final database dump
+3431.273 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_users.table.gz (2/35): adding to final database dump
+3431.275 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_usermeta.table.gz (3/35): adding to final database dump
+3431.277 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_commentmeta.table.gz (4/35): adding to final database dump
+3431.279 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_comments.table.gz (5/35): adding to final database dump
+3431.281 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_links.table.gz (6/35): adding to final database dump
+3431.282 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_postmeta.table.gz (7/35): adding to final database dump
+3431.319 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_posts.table.gz (8/35): adding to final database dump
+3431.349 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_term_relationships.table.gz (9/35): adding to final database dump
+3431.355 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_term_taxonomy.table.gz (10/35): adding to final database dump
+3431.358 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_termmeta.table.gz (11/35): adding to final database dump
+3431.361 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_terms.table.gz (12/35): adding to final database dump
+3431.364 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_order_itemmeta.table.gz (13/35): adding to final database dump
+3431.366 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_payment_tokenmeta.table.gz (14/35): adding to final database dump
+3431.367 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_yoast_seo_links.table.gz (15/35): adding to final database dump
+3431.370 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_yoast_seo_meta.table.gz (16/35): adding to final database dump
+3431.371 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_smush_dir_images.table.gz (17/35): adding to final database dump
+3431.373 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_social_users.table.gz (18/35): adding to final database dump
+3431.375 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_wc_download_log.table.gz (19/35): adding to final database dump
+3431.376 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_wc_webhooks.table.gz (20/35): adding to final database dump
+3431.378 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_api_keys.table.gz (21/35): adding to final database dump
+3431.380 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_attribute_taxonomies.table.gz (22/35): adding to final database dump
+3431.381 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_downloadable_product_permissions.table.gz (23/35): adding to final database dump
+3431.383 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_log.table.gz (24/35): adding to final database dump
+3431.385 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_order_items.table.gz (25/35): adding to final database dump
+3431.386 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_payment_tokens.table.gz (26/35): adding to final database dump
+3431.388 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_sessions.table.gz (27/35): adding to final database dump
+3431.390 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_shipping_zone_locations.table.gz (28/35): adding to final database dump
+3431.392 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_shipping_zone_methods.table.gz (29/35): adding to final database dump
+3431.394 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_shipping_zones.table.gz (30/35): adding to final database dump
+3431.395 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_tax_rate_locations.table.gz (31/35): adding to final database dump
+3431.397 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woocommerce_tax_rates.table.gz (32/35): adding to final database dump
+3431.399 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_woof_query_cache.table.gz (33/35): adding to final database dump
+3431.401 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_yith_wcwl.table.gz (34/35): adding to final database dump
+3431.402 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db-table-wpod_yith_wcwl_lists.table.gz (35/35): adding to final database dump
+3431.404 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db.gz: finished writing out complete database file (280 KB)
+3431.417 (1) Total database tables backed up: 35 (backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db.gz, size: 308218, sha256)
+3431.425 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3431.426 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3431.428 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3431.429 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-others.zip: others: This file has not yet been successfully uploaded: will queue
+3431.431 (1) backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db.gz: db: This file has not yet been successfully uploaded: will queue
+3431.432 (1) Saving backup history. Total backup size: 87.2 MB
+3431.435 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+3431.440 (1) Cloud backup selection (1/1): none with instance (1/1) (last)
+3431.441 (1) No remote despatch: user chose no remote backup service
+3431.444 (1) Recording as successfully uploaded: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-plugins.zip (39c362c9e47a676075d638484234ff32)
+3431.452 (1) Recording as successfully uploaded: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-themes.zip (730a1786de96d862600da87893398ca8)
+3431.458 (1) Recording as successfully uploaded: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-uploads.zip (45c0955d0d24ae0172ece46253b84bdc)
+3431.463 (1) Recording as successfully uploaded: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-others.zip (e1d07b5669a857550e1a1a70bf42f5a0)
+3431.469 (1) Recording as successfully uploaded: backup_2018-06-23-1517_Bloomnesia_2cb1497d1132-db.gz (4a1a0b01ebd6450ccacb2b2ecc1bd8d2)
+3431.477 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+3431.479 (1) Number of backup sets in history: 1; groups (db): 1
+3431.480 (1) Examining (for databases) backup set with group_id=0, nonce=2cb1497d1132, datestamp=1529767047 (Jun 23 2018 15:17:27)
+3431.482 (1) This backup set is the backup set just made, so will not be deleted.
+3431.482 (1) Number of backup sets in history: 1; groups (files): 1
+3431.483 (1) Examining (for files) backup set with nonce=2cb1497d1132, datestamp=1529767047 (Jun 23 2018 15:17:27)
+3431.483 (1) This backup set is the backup set just made, so will not be deleted.
+3431.485 (1) This backup set is the backup set just made, so will not be deleted.
+3431.485 (1) This backup set is the backup set just made, so will not be deleted.
+3431.485 (1) This backup set is the backup set just made, so will not be deleted.
+3431.486 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+3431.488 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+3431.492 (1) Resume backup (2cb1497d1132, 1): finish run
+3431.495 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+3431.500 (1) No email will/can be sent - the user has not configured an email address.
+3431.502 (1) The backup apparently succeeded (with warnings) and is now complete
