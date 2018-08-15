@@ -108,7 +108,7 @@ class Visual_Form_Builder_Page_Settings {
 					<td>
 						<?php
 						// Use the admin_email as the From email
-						$from_email = get_site_option( 'admin_email' );
+						$from_email = get_option( 'admin_email' );
 
 						// Get the site domain and get rid of www.
 						$sitename = strtolower( $_SERVER['SERVER_NAME'] );
@@ -128,6 +128,19 @@ class Visual_Form_Builder_Page_Settings {
 					</td>
 				</tr>
 			</table>
+
+			<div class="vfb-notices vfb-notice-danger" style="width: 50%;">
+				<h3><?php _e( 'Uninstall Visual Form Builder', 'visual-form-builder' ); ?></h3>
+				<p><?php _e( "Running this uninstall process will delete all Visual Form Builder data for this site. This process cannot be reversed.", 'visual-form-builder' ); ?></p>
+				<?php
+					submit_button(
+						__( 'Uninstall', 'visual-form-builder' ),
+						'delete',
+						'visual-form-builder-uninstall',
+						false
+					);
+				?>
+			</div> <!-- .vfb-notices -->
 
 			<?php submit_button( __( 'Save', 'visual-form-builder' ), 'primary', 'submit', false ); ?>
 		</form>

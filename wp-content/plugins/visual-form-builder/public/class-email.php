@@ -379,7 +379,7 @@ class Visual_Form_Builder_Email {
 		$from_name = ( $header_from_name == '' ) ? 'WordPress' : $header_from_name;
 
 		// Use the admin_email as the From email
-		$from_email = get_site_option( 'admin_email' );
+		$from_email = get_option( 'admin_email' );
 
 		// Get the site domain and get rid of www.
 		$sitename = strtolower( $_SERVER['SERVER_NAME'] );
